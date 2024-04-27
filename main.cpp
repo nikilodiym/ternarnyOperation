@@ -8,7 +8,7 @@ int main() {
     cout << "Enter a number: ";
     cin >> number;
 
-    string result = (number % 2 == 0) ? "steamy" : "odd";
+    int result = (number % 2 == 0) ? "steamy" : "odd";
     cout << "This number is: " << result << endl;
 
 
